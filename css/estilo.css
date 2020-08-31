@@ -120,6 +120,8 @@ a#contato-social{
     margin: 30px 0 20px;
     border: 2px solid #2e86de;
     background-color: #2e86de;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
     border-radius: 20px;
     text-decoration: none;
     color: #FFF;
@@ -172,6 +174,8 @@ a#contato-social{
     margin: 30px 0px 30px;
     border: 2px solid #2e86de;
     background-color: #2e86de;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
     border-radius: 20px;
     text-decoration: none;
     color: #FFF;
@@ -261,6 +265,8 @@ a#contato-social{
 	padding: 1em;
 	border: 1px solid #FFF;
     background-color: #FFF;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
     border-radius: 10px;
 }
 
@@ -285,6 +291,8 @@ a#contato-social{
     padding: 10px;
     margin-bottom: 15px;
     background-color: #FFF;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
     border-radius: 20px;
     border: 2px solid #FFF;
     color: #2d3436;

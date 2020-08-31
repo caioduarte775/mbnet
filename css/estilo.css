@@ -1,0 +1,388 @@
+/* Formatações gerais */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.divisor-x{
+    border-bottom: 1px solid #2d3436;
+    opacity: 0.3;
+}
+
+/* Formatações nav social */
+
+#social{
+    background-color: #2e86de;
+}
+
+#nav-social img{
+    width: 50px;
+    float: left;
+    margin-top: -5px;
+}
+
+#nav-social ul{
+    padding: 10px;
+    text-align: right;
+    list-style-type: none;
+}
+
+#nav-social li{
+    display: inline;
+    margin-right: 10px;
+}
+
+#nav-social a{
+    display: inline-block;
+    text-decoration: none;
+    color: #FFF;
+}
+
+a#contato-social{
+    font-size: 10px;
+    margin-right: 10px;
+    color: #FFF;
+}
+
+/* Formatações nav principal */
+
+#menu{
+    background-color: #222f3e;
+}
+
+#menu ul{
+    padding: 15px;
+    text-align: center;
+    list-style-type: none;
+}
+
+#menu li{
+    display: inline;
+    margin-right: 20px;
+}
+
+#menu a{
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: -0.5px;
+    color: #FFF;
+}
+
+#menu a:hover{
+    text-shadow: 1px 1px 5px #FFF;
+    transition: .3s;
+}
+
+/* Formatações principal */
+
+#background-principal{
+    background: url(../imagens/img1.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#principal{
+    background:rgba(0,0,0,0.6);
+}
+
+#principal h2{
+    margin-top: 1.5em;
+    text-transform: uppercase;
+    text-indent: 10px;
+    font-size: 3.5em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #FFF;
+    border-left: 1px solid #FFF;
+}
+
+#principal p{
+    margin-top: 1.5em;
+    font-size: 1.5em;
+    font-weight: 400;
+    text-shadow: 1px 1px 1px #222f3e;
+    color: #FFF;
+}
+
+#principal button{
+    width: 150px;
+    padding: 10px;
+    margin: 30px 0 20px;
+    border: 2px solid #2e86de;
+    background-color: #2e86de;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+#principal button:hover{
+    background-color: transparent;
+    transition: .5s;
+    cursor: pointer;
+}
+
+/* Sobre */
+
+#sobre{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFF;
+}
+
+#sobre h2{
+    margin: 1.5em 0 20px 0;
+    font-size: 2.5em;
+    color: #2d3436;
+}
+
+#sobre img{
+    width: 100px;
+    margin-top: 20px;
+}
+
+#sobre h3{
+    margin-top: 1em;
+    color: #2d3436;
+    opacity: 0.9;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+#sobre p{
+    margin-top: 1.5em;
+    letter-spacing: 0.5px;
+    font-size: 17px;
+    opacity: 0.7;
+    color: #2d3436;
+}
+
+#sobre button{
+    width: 150px;
+    padding: 10px;
+    margin: 30px 0px 30px;
+    border: 2px solid #2e86de;
+    background-color: #2e86de;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+#sobre button:hover{
+    background-color: #636e72;
+    border-color: #636e72;
+    transition: .5s;
+    cursor: pointer;
+}
+
+/* Ações */
+
+#acoes{
+    margin-top: 2em;
+    color: #2d3436;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#acoes .container{
+    margin-top: 2.5em;
+}
+
+#acoes h2{
+    margin: 20px 0;
+    font-size: 2em;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+/* Clientes */
+
+#clientes{
+    background-color: #F5F5F5;
+    margin-top: 4em;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #2d3436;
+}
+
+#clientes article{
+    margin-bottom: 4em;
+}
+
+#clientes h2{
+    margin: 2em 0;
+    font-size: 2em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#clientes p{
+    letter-spacing: -0.5px;
+}
+
+#clientes h3{
+    margin: 20px 0 10px;
+}
+
+#clientes img{
+    width: 100px;
+}
+
+/* Contatos */
+
+#contato{
+    background-color: #4682B4;
+    font-family: 'Roboto', sans-serif;
+    color: #2d3436;
+}
+
+#contato h2{
+    margin: 40px 0;
+    font-size: 2em;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+
+#contato fieldset{
+	margin: 1em 0;
+	padding: 1em;
+	border: 1px solid #FFF;
+    background-color: #FFF;
+    border-radius: 10px;
+}
+
+#contato input{
+    width: 300px;
+    padding: 10px 0 10px;
+}
+
+#contato label{
+    padding: 10px 0 10px;
+	display: block;
+	cursor: pointer; /* Mão */
+}
+
+#contato textarea{
+	width: 30em;
+	height: 8em;
+}
+
+#contato button{
+    width: 150px;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #FFF;
+    border-radius: 20px;
+    border: 2px solid #FFF;
+    color: #2d3436;
+}
+
+#contato button:hover{
+    background-color: #ccc;
+    border-color: #ccc;
+    transition: .5s;
+}
+
+/* Rodapé */
+
+#rodape{
+    padding: 20px;
+    background-color: #FFF;
+}
+
+#nav-rodape ul{
+    list-style-type: none;
+}
+
+#nav-rodape li{
+    margin: 20px 0 10px;
+}
+
+#nav-rodape a{
+    color: #2d3436;
+    text-decoration: none;
+}
+
+#nav-rodape a:hover{
+    opacity: 0.5;
+    transition: .4s;
+}
+
+#fim p{
+    color: #2d3436;
+    margin-top: 4em;
+    padding: 20px;
+}
+
+
+/* Responsividade */
+
+@media (min-width: 400px) and (max-width: 991.98px) {
+    #social{
+        display: none;
+    }
+    #menu a{
+        font-size: 13px;
+        display: block;
+    }
+    #principal h2{
+        font-size: 2em;
+    }
+    #principal p{
+        font-size: 1em;
+    }
+    #principal button{
+        width: 100px;
+        font-size: 14px;
+        padding: 5px;
+    }
+    #sobre h2{
+        font-size: 2em;
+    }
+    #sobre img{
+        width: 80px;
+    }
+    #sobre h3{
+        font-size: 15px;
+    }
+    #sobre p{
+        font-size: 13.5px;
+    }
+    #acoes h2{
+        font-size: 1.5em;
+    }
+    #acoes i{
+        width: 80px;
+    }
+    #acoes p{
+        font-size: 14px;
+    }
+    #clientes h2{
+        font-size: 1.5em;
+    }
+    #contato h2{
+        font-size: 1.5em;
+    }
+    #contato textarea{
+        width: 19em;
+        height: 5em;
+    }
+    #fim{
+        font-size: 14px;
+        padding: 0;
+        margin: 0;
+    }
+} 
